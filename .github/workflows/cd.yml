@@ -22,9 +22,6 @@ jobs:
           - os: windows-latest
             artifact_name: CryptoTracker.exe
             asset_name: CryptoTracker-Windows.exe
-          - os: macos-latest
-            artifact_name: CryptoTracker
-            asset_name: CryptoTracker-macOS
 
     steps:
     - name: Checkout code
