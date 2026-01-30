@@ -79,14 +79,12 @@ jobs:
         files: |
           artifacts/CryptoTracker-Linux/CryptoTracker
           artifacts/CryptoTracker-Windows.exe/CryptoTracker.exe
-          artifacts/CryptoTracker-macOS/CryptoTracker
         body: |
           ## 🚀 Crypto Tracker Release ${{ github.ref_name }}
           
           ### 📦 Downloads
           - **Linux**: CryptoTracker-Linux
           - **Windows**: CryptoTracker-Windows.exe
-          - **macOS**: CryptoTracker-macOS
           
           ### 🎯 Features
           - Real-time cryptocurrency price tracking
