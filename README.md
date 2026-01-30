@@ -1,4 +1,8 @@
-# Chương Trình Theo Dõi Giá Bitcoin Real-Time
+# Crypto Real-Time Price Tracker 🚀
+
+[![CI - Continuous Integration](https://github.com/aquarius-ts/crypto-tracker/workflows/CI%20-%20Continuous%20Integration/badge.svg)](https://github.com/aquarius-ts/crypto-tracker/actions)
+[![CD - Continuous Deployment](https://github.com/aquarius-ts/crypto-tracker/workflows/CD%20-%20Continuous%20Deployment/badge.svg)](https://github.com/aquarius-ts/crypto-tracker/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Mô tả
 Chương trình theo dõi giá Bitcoin real-time sử dụng WebSocket từ Binance với 2 giao diện:
@@ -60,19 +64,19 @@ python3 btcrealtime.py
 │         BITCOIN REAL-TIME TRACKER                   │
 ├─────────────────────────────────────────────────────┤
 │                                                     │
-│                 $83,125.50                         │
-│            UP +15.25 (+0.02%)                      │
+│                 $83,125.50                          │
+│            UP +15.25 (+0.02%)                       │
 │                                                     │
 ├─────────────────────────────────────────────────────┤
-│  VOLUME              │  LAST UPDATE                │
-│  0.125000 BTC        │  14:25:32.156               │
+│  VOLUME              │  LAST UPDATE                 │
+│  0.125000 BTC        │  14:25:32.156                │
 │                                                     │
-│  SESSION HIGH        │  SESSION LOW                │
-│  $83,250.00          │  $82,980.50                 │
+│  SESSION HIGH        │  SESSION LOW                 │
+│  $83,250.00          │  $82,980.50                  │
 ├─────────────────────────────────────────────────────┤
-│  [+] Connected - Live                              │
+│  [+] Connected - Live                               │
 │                                                     │
-│      [START]              [STOP]                   │
+│      [START]              [STOP]                    │
 └─────────────────────────────────────────────────────┘
 ```
 

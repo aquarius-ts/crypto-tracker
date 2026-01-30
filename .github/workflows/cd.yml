@@ -38,9 +38,9 @@ jobs:
         pip install -r requirements.txt
         pip install pyinstaller
 
-    - name: Build executable with PyInstaller spec
+    - name: Build executable with PyInstaller
       run: |
-        pyinstaller crypto_tracker.spec
+        pyinstaller --onefile --windowed --name=CryptoTracker crypto_tracker_simple.py
 
     - name: List dist contents
       run: |
