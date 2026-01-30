@@ -29,7 +29,6 @@ MANIFEST
 
 # PyInstaller
 *.manifest
-# *.spec  # Commented out to track spec files for builds
 
 # Installer logs
 pip-log.txt
